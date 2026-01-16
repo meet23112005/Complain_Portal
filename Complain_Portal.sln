@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complain_Portal", "Complain_Portal\Complain_Portal.csproj", "{6A1D18B5-30D5-4721-B03A-036B830C6B5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1D18B5-30D5-4721-B03A-036B830C6B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1D18B5-30D5-4721-B03A-036B830C6B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1D18B5-30D5-4721-B03A-036B830C6B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1D18B5-30D5-4721-B03A-036B830C6B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FE32F11-F543-4404-9103-0D3EE93E1B3A}
+	EndGlobalSection
+EndGlobal
