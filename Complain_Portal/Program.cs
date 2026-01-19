@@ -1,5 +1,6 @@
 
 using Complain_Portal.Data;
+using Complain_Portal.Middleware;
 using Complain_Portal.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -58,7 +59,7 @@ namespace Complain_Portal
             {
                 app.MapOpenApi();
             }
-
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseRouting();
