@@ -2,7 +2,6 @@
 using Complain_Portal.DTOs;
 using Complain_Portal.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
