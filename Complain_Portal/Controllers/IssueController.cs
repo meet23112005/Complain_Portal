@@ -205,6 +205,6 @@ namespace Complain_Portal.Controllers
 
             return Ok(new { Message = "Work Status Updated!", NewStatus = issue.Status.ToString() });
 
-        }
+            }
     }
 }
